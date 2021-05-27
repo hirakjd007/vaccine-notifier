@@ -6,7 +6,7 @@ This Python script will poll the CoWin public APIs to check for slots based on t
 
 ## Installation
 
-### Note: This library requires Python 3.6+ and Linux or MacOS and a Telegram BOT to send messages to telegram user/channel
+### Note: This library requires Python 3.6+ and a Telegram BOT to send messages to telegram user/channel
 
 1. Install Python  See [Python documentation](https://www.python.org/downloads/) for more details on how to install Python .
 
