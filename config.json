@@ -1,0 +1,10 @@
+{
+    "pincode": "pin",
+    "poll_interval": 10,
+    "my_token": "bot-token",
+    "chat_id": "@channel_name",
+    "min_age_limit": 18,
+    "available_capacity": 0,
+    "vaccine": "COVISHIELD",
+    "fee_type": "Free"
+}
