@@ -1,18 +1,20 @@
-# vaccine-notifier
+# :black_heart:	 vaccine-notifier 
 
 ## Introduction
 
 This Python script will poll the CoWin public APIs to check for slots based on the interval defined in the script. Once a slot with the defined filters is available it will send a notification to telegram user/channel/bot ( as defined by users)
 
+> Note: The appointment availability data is cached and may be upto 30 minutes old. Further, these APIs are subject to a rate limit of 100 API calls per 5 minutes per IP.
+
 ## Installation
 
-### Note: This library requires Python 3.6+ and a Telegram BOT to send messages to telegram user/channel
+> Note: This library requires Python 3.6+ and a Telegram BOT to send messages to telegram user/channel
 
 1. Install Python  See [Python documentation](https://www.python.org/downloads/) for more details on how to install Python .
 
 1. Create a telegram bot. See [Telegram bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot) for more details on Telegram BOT. You will receive a bot token (eg. 110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw)
 
-    **Note: The token is a string along the lines of 110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw that is required to             authorize   the bot and send requests to the Bot API. Keep your token secure and store it safely, it can be used by anyone     to control your bot.**
+    > Note: The token is a string along the lines of 110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw that is required to               authorize   the bot and send requests to the Bot API. Keep your token secure and store it safely, it can be used by           anyone to control your bot.**
 
 1. Create a new channel/group or an existing group where you want to send notifications. Make the BOT (you have created above) as an admin.
 
@@ -48,7 +50,7 @@ The script accepts the following config props:
 cd vaccine-notifier
 python covaccinate.py
 ```
-Once a slot is available, you will be notified in the your channel
+##### Once a slot is available, you will be notified in the your channel
 ----
 
 ## Development
