@@ -1,5 +1,8 @@
 # :black_heart:	 vaccine-notifier 
 
+## Demo 
+![Script Demo](https://github.com/hirakjd007/vaccine-notifier/blob/master/demo/Script.png?raw=true)
+![Script Demo](https://github.com/hirakjd007/vaccine-notifier/blob/master/demo/Telegram.png?raw=true)
 ## Introduction
 
 This Python script will poll the CoWin public APIs to check for slots based on the interval defined in the script. Once a slot with the defined filters is available it will send a notification to telegram user/channel/bot ( as defined by users)
